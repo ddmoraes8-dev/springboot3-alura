@@ -18,6 +18,7 @@ public record DadosCadastroMedico(
         @NotBlank
         @Pattern(regexp = "\\d{4,6}")
         String crm,
+
         @NotNull
         EspecialidadeEnum especialidade,
         @NotNull
